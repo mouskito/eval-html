@@ -1,0 +1,18 @@
+nav{ 
+	background: red;
+	display: flex;
+	justify-content: space-around;
+	vertical-align: center;
+}
+nav a{
+	text-decoration: none;
+	font-size: 30px;
+	font-weight: bold;
+	color: yellow;
+	padding: 20px;
+}
+nav img{
+	height: 80px;
+	margin: 5px 0;
+}
+nav a:hover{background: green;}
