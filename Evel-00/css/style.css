@@ -1,0 +1,233 @@
+/* Imports */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@700&family=Roboto&display=swap');
+
+:root {
+    /* fonts */
+    --primary-font: 'Montserrat Alternates', sans-serif;
+    --second-font: 'Roboto', sans-serif;
+    /* Color */
+    --primary-color: #1A237E;
+    --text-color: #6B7280;
+    /* Shadow */
+    --default-shadow: 0px 4px 4px rgba(0, 0, 255, .25);
+    /* Border */
+    --default-border: 4px;
+    /* Transirion */
+    --default-transition: all .5s ease-in-out;
+}
+
+h1, h2, h3, h4, h5, h6, a {
+    font-family: var(--primary-font);
+}
+
+p {
+    font-family: var(--second-font);
+}
+
+/* Menu */
+.navbar {
+    position: absolute;
+    height: 10vh;
+    width: 100%;
+    z-index: 10;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.menu-items {
+    margin: 0 1rem;
+}
+
+.items {
+    color: #fff;
+}
+
+/* Hearder */
+.hero {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-image:
+      linear-gradient(black, black),
+      url('../asset/img/backgorund.jpg');
+    background-size: cover;
+    background-blend-mode: saturation;
+}
+
+.hero-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 5rem;
+    text-shadow: var(--default-shadow);
+}
+
+.hero-title div {
+    height: 5rem;
+    width: 2rem;
+    margin: 0 1rem;
+    border: none;
+    background-color: rgb(49, 233, 49);
+}
+
+.hero-text {
+    font-size: 1.5rem;
+    color: #fff;
+    text-shadow: var(--default-shadow);
+}
+
+/* About */
+.about {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.about-image,.about-content {
+    padding: 1rem;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-text {
+    color: var(--text-color);
+}
+
+.about-link {
+    width: 10rem;
+    text-align: center;
+    font-size: small;
+    color: var(--text-color);
+    padding: 1rem 1.5rem;
+    background-color: white;
+    border: solid 1px var(--text-color);
+    transition: var(--default-transition);
+}
+
+.about-link:hover {
+    color: #fff;
+    background-color: var(--text-color);
+}
+
+/* Opening */
+.opening {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.opening p {
+    text-align: center;
+}
+
+/* Tableau */
+table {
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    width: 50%;
+    table-layout: fixed;
+}
+
+table caption {
+    font-family: var(--primary-font);
+    font-size: 1.5em;
+    margin: .5em 0 .75em;
+}
+
+table tr {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    padding: .35em;
+}
+
+table th,
+table td {
+    font-family: var(--second-font);
+    padding: .625em;
+    text-align: center;
+}
+
+table th {
+    font-size: .85em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+}
+
+/* Contact */
+.contact {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.contact form, .contact iframe {
+    padding: .5rem;
+}
+
+.contact-text {
+    color: var(--text-color);
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;  
+}
+
+.contact form label {
+    font-family: var(--second-font);
+    color: var(--text-color);
+    margin: 1rem 0;
+}
+
+.contact form label {
+    font-family: var(--second-font);
+    color: var(--text-color);
+    margin: 1rem 0;
+}
+
+.contact form textarea {
+    resize: none;
+}
+
+.contact form button {
+    width: 10rem;
+    text-align: center;
+    font-size: small;
+    color: var(--text-color);
+    margin: 1rem 0;
+    padding: 1rem 1.5rem;
+    background-color: white;
+    border: solid 1px var(--text-color);
+    transition: var(--default-transition);
+}
+
+.contact form button:hover {
+    color: #fff;
+    background-color: var(--text-color);
+}
+
+.contact form input {
+    height: 5vh;
+}

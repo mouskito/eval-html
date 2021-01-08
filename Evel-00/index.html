@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <!-- Meta -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Title -->
+    <title>TP-03</title>
+
+    <!-- Css -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body>
+    
+    <!-- Menu -->
+    <nav class="navbar">
+        <ul class="menu">
+            <li class="menu-items">
+                <a href="#home" rel="noopener noreferrer" class="items">Accueil</a>
+            </li>
+            <li class="menu-items">
+                <a href="#about-us" rel="noopener noreferrer" class="items">A propos</a>
+            </li>
+            <li class="menu-items">
+                <a href="team.html" rel="noopener noreferrer" class="items">L'équipe</a>
+            </li>
+            <li class="menu-items">
+                <a href="#contact-us" rel="noopener noreferrer" class="items">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Header -->
+    <header id="home" class="hero">
+        <h1 class="hero-title">Bienvenue <div> </div></h1>
+        <div class="hero-content">
+            <p class="hero-text">Au centre Afpa</p>
+            <p class="hero-text">De Lomme</p>
+        </div>
+    </header>
+
+    <!-- About -->
+    <section id="about-us" class="about">
+        <div class="about-image">
+            <img src="./asset/img/classe.jpg" alt="Salle de classe">
+        </div>
+        <div class="about-content">
+            <h2 class="about-title">
+                Afpa : formation professionnelle, formation adulte, formation
+            </h2>
+            <p class="about-text">
+                L’Agence nationale pour la formation professionnelle des adultes (Afpa) est un organisme français de formation professionnelle, au service des régions, de l'État, des branches professionnelles et des entreprises. Membre du service public de l'emploi1, l'Afpa, constituée en association avant de devenir en 2017 un établissement public à caractère industriel et commercial (EPIC), propose des formations professionnelles qualifiantes, sanctionnées par un titre professionnel du ministère du Travail.
+            </p>
+            <a href="https://www.afpa.fr/" target="_blank" rel="noopener noreferrer" class="about-link">Lire la suite</a>
+        </div>
+    </section>
+
+    <!-- Hours -->
+    <section class="opening">
+
+        <table>
+            <caption>Horaire d’ouverture</caption>
+            <thead>
+              <tr>
+                <th scope="col">Jour</th>
+                <th scope="col">Matin</th>
+                <th scope="col">Après-midi</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td data-label="Jour">Lundi</td>
+                <td data-label="Matin">08h00 - 12h30</td>
+                <td data-label="Après-midi">13h30-17h30</td>
+              </tr>
+              <tr>
+                <td data-label="Jour">Mardi</td>
+                <td data-label="Matin">08h00 - 12h30</td>
+                <td data-label="Après-midi">13h30-17h30</td>
+              </tr>
+              <tr>
+                <td data-label="Jour">Mercredi</td>
+                <td data-label="Matin">08h00 - 12h30</td>
+                <td data-label="Après-midi">13h30-17h30</td>
+              </tr>
+              <tr>
+                <td data-label="Jour">Jeudi</td>
+                <td data-label="Matin">08h00 - 12h30</td>
+                <td data-label="Après-midi">13h30-17h30</td>
+              </tr>
+              <tr>
+                <td data-label="Jour">Vendredi</td>
+                <td data-label="Matin">09h00 - 12h30</td>
+                <td data-label="Après-midi"> - </td>
+              </tr>
+              <tr>
+                <td data-label="Jour">samedi</td>
+                <td data-label="Matin"> fermé le samedi </td>
+                <td data-label="Après-midi"> - </td>
+              </tr>
+              <tr>
+                <td data-label="Jour">Dimanche</td>
+                <td data-label="Matin"> fermé le dimanche </td>
+                <td data-label="Après-midi"> - </td>
+              </tr>
+            </tbody>
+        </table>
+        
+        <h2>En cas d’urgence</h2>
+
+        <p>
+            Les numéros d'appel d'urgence permettent de joindre gratuitement les secours 24h/24. Toutefois, trop d’abus ou d’appels mal orientés surchargent encore inutilement les lignes téléphoniques.
+        </p>
+
+    </section>
+
+    <!-- Contact -->
+    <section id="contact-us" class="contact">
+        
+        <form action="" method="post">
+            <h2 class="contact-title">Contact</h2>
+            <p class="contact-text">Une remarque ? Une suggestion ? N'hésitez-pas à m'écrire.</p>
+            <label for="">Votre nom (obligatoire)</label>
+            <input type="text">
+            <label for="">Objet (obligatoire)</label>
+            <input type="text">
+            <label for="">Votre message</label>
+            <textarea name="" id="" cols="50" rows="10"></textarea>
+            <button type="submit">Envoyer</button>
+        </form>
+        
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2625.8275233207537!2d2.388655215123778!3d48.84242850978539!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e6726cff41e12d%3A0xab5e0f3ca4b57c7!2sAFPA!5e0!3m2!1sfr!2sfr!4v1610050231858!5m2!1sfr!2sfr" width="600" height="450" frameborder="0" style="border:4;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </section>
+
+</body>
+</html>
