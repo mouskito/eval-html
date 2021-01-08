@@ -3,62 +3,58 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title> Exercise </title>
   </head>
   <body>
+<!--Header-->
     <header>
       <nav>
-        <div class="logo-container">
+        <div class="first-container">
           <div class="logo">
             <img src="images/logo.png" alt="logo">
           </div>
-          <div class="logo-text">
-            <b>Lorem ipsum dolor <span style="color:orange">sit amet</span></b>
+          <div class="logo-words">
+            <p>Lorem ipsum dolor <span>sit amet</span></p>
           </div>
         </div>
 
-        <div class="profile-container">
-
-          <div class="buttons-container">
-            <div class="button-1">
-              <img src="images/icon-mon-compte.png" alt="profile_logo">
-                  <a href="#">Mon Compte</a>
+        <div class="second-container">
+          <div class="holder1">
+            <div class="holder2">
+              <div class="user-nav">
+                <div class="user-button">
+                  <img src="images/icon-mon-compte.png" alt="account_logo">
+                  <p>Mon Compte</p>
+                </div>
+                <div class="user-button">
+                  <img src="images/icon-mon-panier.png" alt="Votre panier est vide">
+                  <p>Votre panier est vide</p>
+                </div>
+              </div>
             </div>
-
-            <div class="button-2">
-              <img src="images/icon-mon-panier.png" alt="panier">
-              <a href="#">Votre panier est vide</a>
             </div>
-
+          <div class="welcome-nav">
+            <p>Bonjour Vladislav</p>
           </div>
-
-          <div class="username-container">
-            <div class="hello">
-              <b>Bonjour, Vladislav!</b>
-            </div>
-          </div>
-
-          <div class="navbuttons-container">
-            <div class="navbutton1">
-              <a href="#">Contactez-nous</a>
-            </div>
-            <div class="navbutton2">
-              <a href="#">Parrainage</a>
-            </div>
-            <div class="navbutton3">
-              <a href="#">Deconnexion</a>
-            </div>
+          <div class="button-nav">
+            <div class="left"> <a href="#">Contactez-nous</a></div>
+            <div class="middle"> <a href="#">Parrainage</a></div>
+            <div class="right"> <a href="#">Déconnexion</a></div>
           </div>
         </div>
-
       </nav>
     </header>
+<!--Fin Header-->
 
-    <div class="image">
-      <img src="images/header-page-catalogue.png" alt="catalogue">
-    </div>
 
-    <div class="content-container">
+<!--
+    <div id="content-container">
+      <div class="image-container">
+      <div class="image">
+        <img src="images/header-page-catalogue.png" alt="catalogue">
+      </div>
+      </div>
     <div class="catalogue-items">
         <div class="item">
           <div class="item-img"><img src="images/gant-boxe-2.png" alt="item1"></div>
@@ -90,10 +86,73 @@
 
       </div>
     </div>
+//-->
 
+<main>
+<div class="main-container">
+
+<div class="top-content">
+  <div class="image-content">
+    <div class="image">
+      <img src="images/header-page-catalogue.png" alt="catalogue">
+    </div>
+  </div>
+</div>
+
+
+<div class="bottom-content">
+
+<div class="items-top">
+
+  <div class="item-holder">
+
+    <div class="item-main">
+
+      <div class="item">
+
+        <img src="images/gant-boxe-2.png" alt="gant_boxe">
+
+      </div>
+
+      <div class="sale">
+
+        <img src="https://laserinkjetlabels.com/images/sale-pricing-label.gif" alt="sale">
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+</div>
+
+<!--
+<div class="items-bottom">
+  <div class="item-holder">
+    <div class="item">
+      <img src="images/gant-boxe-2.png" alt="gant_boxe">
+    </div>
+  </div>
+  <div class="item-holder">
+    <div class="item">
+      <img src="images/gant-boxe-1.png" alt="gant_boxe">
+    </div>
+  </div>
+</div>
+//-->
+
+
+</div>
+</main>
+
+
+
+<!--Footer-->
     <footer>
 
-      <div class="footer-button-container">
+      <div id="footer-button-container">
         <div class="footer-buttons">
           <div class="footer-button1">
             <a href="#">Qui sommes-nous</a>
@@ -114,7 +173,7 @@
         </div>
       </div>
 
-      <div class="footer-text-container">
+      <div id="footer-text-container">
         <div class="footer-text-items">
           <div class="footer-text-item">
             <img src="images/icon-camion.png" alt="camion">
@@ -139,19 +198,27 @@
         </div>
       </div>
 
-      <div class="footer-social-conteiner">
+      <div id="footer-social-container">
         <div class="footer-social-items">
           <div class="social-item">
-            <img src="images/icon-twitter.png" alt="twitter-logo">
+            <a href="https://twitter.com"><img src="images/icon-twitter.png" alt="twitter-logo"></a>
           </div>
           <div class="social-item">
-            <img src="images/icon-facebook.png" alt="facebook-logo">
+            <a href="https://facebook.com"><img src="images/icon-facebook.png" alt="facebook-logo"></a>
           </div>
           <div class="social-item">
-            <img src="images/icon-linkedin.png" alt="linkedin-logo">
+            <a href="https://linkedin.com"></a><img src="images/icon-linkedin.png" alt="linkedin-logo">
           </div>
         </div>
       </div>
+
+      <div id="footer-copyright-container">
+        <div class="footer-copyright">
+          © 2021 John Doe Some Rights Reserved
+        </div>
+      </div>
     </footer>
+<!--Fin Footer-->
+
   </body>
 </html>
