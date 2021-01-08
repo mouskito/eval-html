@@ -1,0 +1,106 @@
+header {
+	background-color : #EEEEEE;
+}
+
+#panier_div {
+	background-color : white;
+	border: solid;
+	vertical-align:middle;
+}
+
+body {
+	background-color : black;
+}
+
+#im3 {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+#gants {
+	background-color : white;
+	width : 50%;
+	text-align : center;
+}
+
+#im4 {
+	margin-left : auto;
+	margin-right : auto;
+	width : 75%;
+	margin : 25px;
+	box-shadow: 10px 5px 5px black;
+}
+
+footer {
+	color : white;
+	background-color : #535353;
+	text-align : center;
+	transition:2s;
+}
+
+#im1 {
+	margin : 24px;
+}
+
+#barre{
+	height:2px;
+	width:25%;
+	background-color:white;
+}
+
+#im2 {
+	margin : 48px;
+}
+
+#im2:hover {
+	transition : 1s;
+	transform:rotate(10deg);
+}
+
+#barre_footer{
+	transition:2s;
+	background-color : #535353;
+	height:24px;
+	width:100%;
+}
+
+#barre_footer_white{
+	background-color : white;
+	height:24px;
+	width:50%;
+}
+
+button {
+	color : white;
+	background-color : black;
+	
+}
+
+.yello {
+	color : orange;
+	font-size: 24px;
+}
+
+.borderr {
+	border : solid;
+}
+
+h2 {
+	margin-left: 610px;
+}
+
+h3 {
+	margin-right : 550px;
+}
+
+.righta {
+	margin-left : 450px;
+}
+
+a {
+	margin : 24px;
+	text-decoration : none;
+	color : black;
+}
