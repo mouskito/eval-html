@@ -1,0 +1,77 @@
+/*DE PETIT VERS GRAND*/
+
+.logo{
+	display: inline-flex;
+	flex-direction: column;
+	border-left: solid 2px orange;
+	padding-left: 20px;
+	font-size: 22px;
+}
+.logo span{margin: 10px;}
+.logo data{color: orange;}
+
+
+.compte, .panier{
+	display: inline-flex;
+	padding: 20px;
+	
+}
+.connexion a{
+	text-decoration: none;
+	color: black;
+	margin-left: 10px;
+	padding-top: 15px;
+}
+.connexion{
+	display: flex;
+	justify-content: space-around;
+	background: #B3B3B3;
+	width: auto;
+	border: solid 1px;
+	margin-right: 0px;
+}
+
+.menu span{
+	font-size: 30px;
+	margin-right: 40px;
+}
+.liens{
+	display: flex;
+	text-align: center;
+	height: 80px;
+	font-size: 20px;
+	margin-right: 150px;
+}
+.liens a{
+	border-left: 1px solid grey;
+	border-right: 1px solid grey;
+	text-decoration: none;
+	color: black;
+	padding: 50px 20px 0 20px;
+
+}
+.liens a:nth-child(2){border: none;}
+.menu{
+	display: inline-flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: right;
+}
+/*----------------------------------------------------------*/
+nav{
+	width: 1092px;
+	margin: 0 all;
+	padding: 20px 0px 0 0px;
+	background: white;
+	display: flex;
+	justify-content: space-around;
+}
+header{
+	display: flex;
+	justify-content: center;
+}
+/*----------------------------------------------------------*/
+body{
+	background: #2F2F2F;
+	justify-content: center;
+}
