@@ -1,0 +1,88 @@
+
+/**
+* Tu avais nommé ton fichier css
+* tu as fait tpboxe.css.css
+**/
+
+/*
+* Il te manque des images ?? 
+je ne crois pas 
+j'ai indiqué leur adresse dans mon html (qui a aussi un problème de nom)
+non regarde dans ton HTML tu appelle cette image icon-mon-compte.png 
+mais elle est pas à gauche 
+
+LAiise moi faire 
+comment avez-vous fait opur centrer le logo ?
+c'est ton css 
+j'ai juste ajouter des images 
+mais mon css ne fonctionnait pas et mon tableau contenant les gants de boxe n'est pas centré
+C'est ce que je t'ai dit tout à l'heure, tu avais mal nommé oton fichier, tu l'avais appelé tpboxe.css.css (2 fois .css)
+ j,' ai rjemanoimmé  aussi mis 2 fois html
+ raegoui 
+
+
+ regarde bien ton hml,tu as fais tpboxe,html.html virgule html et point html
+ je corrige ?
+à présent mes fichiers ont disparu du navigateur
+vous êtes là ?
+
+
+*/
+
+body{
+	background: white;
+}
+div{
+	background: white;
+}
+.conteneur{
+	width: 100%;
+	height: auto;
+	bottom: 10%;
+	background: gray;
+	padding: 20%
+}
+.compte_panier{
+	text-align: right;
+	border: black;
+}
+nav{
+	background: white;
+	text-align: center;
+	width: auto;
+}
+nav.logo{
+	text-align: left;
+}
+nav.connecter{
+	text-align: right;
+}
+div.flyer_boxingfight'{
+	background: gray;
+}
+tr td div.flyer_boxingfight{
+	width:50%;
+	position: relative;
+}
+tr td img{
+	width: 30%;
+	margin: 38%
+	border:2px;
+	position: relative;
+	text-align: justify;
+}
+nav.bottom{
+	width:100%;
+	height: 15px;
+	color: grey;
+}
+footer{
+	text-align: center;
+}
+footer.div{
+	display: inline-flex;
+	text-align: justify; 
+	left: 25%;
+	right: 25%;
+	background: white;
+}
