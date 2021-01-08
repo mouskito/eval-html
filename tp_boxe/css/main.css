@@ -1,0 +1,69 @@
+.catalogue-main{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	width: 50%;
+	background: #f0f3f4;
+	margin: auto;
+	    margin-top: auto;
+	padding-bottom: 100px;
+	margin-top: 20px;
+}
+.item{
+	position: relative;
+	margin: 50px;
+	transition: 2s;
+}
+.item a{
+	text-decoration: none;
+	color: white;
+}
+.item img{
+box-shadow: 1px 1px 10px 1px;
+}
+.item:hover{
+	transform: scale(1.1);
+	transition: 2s;
+}
+.row{
+	display: inline-flex;
+	justify-content: center
+}
+.reduction{
+	display: inline-block;
+ 	font-weight: bold;
+ 	padding: 10px;
+ 	background: #2d2323;
+ 	border: 3px inset #786b6b;
+ 	border-radius: 3px;
+ 	position: absolute;
+ 	top: 20px;
+	right: -20px;
+} 
+.nom{
+	font-weight: bold;
+	position: absolute;
+	top: 345px;
+	left: 50px;
+}
+.bouton{
+
+	padding: 7px 40px 7px 40px;
+	margin: 10px;
+	background: #2d2323;
+	color: white
+}
+.ancien-prix{
+	text-decoration: line-through;
+	 font-weight: bold;
+	 font-size: 1.4em;
+}
+.prix{
+	 font-weight: bold;
+	 font-size: 2em;
+}
+.prix-group{
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px solid #2d2323;
+}

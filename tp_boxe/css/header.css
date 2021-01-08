@@ -1,0 +1,74 @@
+body{
+	margin: 0px;
+	font-family: arial;
+	background: #453835;
+}
+header{
+	background: #f0f3f4;
+}
+header nav{
+	display: flex;
+	justify-content: center;
+	te
+}
+header nav a{
+	text-decoration: none;
+	color: black;
+}
+
+header nav .menu4 a:hover{
+	background: #6a6969;
+	color: white;
+}
+.menu4 a{
+	padding: 10px;
+}
+header nav ul{
+	list-style-type: none;
+}
+.menu1{
+	margin-right: 100px;
+}
+.menu2{
+	background: #e0dfdd;
+	border: 1px solid black;
+	padding: 10px;
+	display: flex;
+	justify-content: flex-end;
+}
+.menu2 li:nth-child(1){
+	margin-right: 100px;
+	margin-left: 50px;
+}
+.menu2 li:nth-child(2){
+	margin-right: 30px;
+}
+.moncompte{
+	position: relative;
+	top: -20px;
+	left: 5%;
+}
+.monpanier{
+	position: relative;
+	top: -20px;
+	left: 3%;
+}
+
+.orange{
+	color: #ffa600;
+}
+
+.menu-group{
+	display: flex;
+	flex-direction: column;
+}
+.menu3{
+	display: flex;
+	justify-content: flex-end;
+	margin-top: 0px;
+	margin-right: 10px;
+}
+.menu4{
+	display: flex;
+	justify-content: space-around;
+}
