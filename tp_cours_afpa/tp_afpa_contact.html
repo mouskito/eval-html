@@ -12,13 +12,33 @@
 	<nav>
 		<a href="tp_afpa.html">Accueil</a>
 		<a href="tp_afpa_a_propos.html">A propos de nous</a>
-		<a href="tp_afpa_contaact.html">Contact</a>
+		<a href="tp_afpa_contact.html">Contact</a>
 		<a href="tp_afpa_equipe.html">L'équipe</a>
 	</nav>
 
-	<center><h1>Page modèle Nav et Footer</h1></center>
+	<center><h1>Page Contact</h1></center>
 
-	<footer>
+	<section class="contact">
+		<h3>Contact</h3>
+		<span>Une remarque ? une suggestion ? N'hésitez pas à nous écrire</span>
+		<form id="formulaire_contact">
+			<label>Votre nom (obligatoire)</label>
+			<input type="text" name="nom" required>
+
+			<label>Votre e-mail (obligatoire)</label>
+			<input type="email" name="mail" required>
+
+			<label>Sujet</label>
+			<input type="text" name="sujet">
+
+			<label>Votre message</label>
+			<textarea rows="10" cols="100"></textarea>
+
+			<input type="submit" name="submit" value="Envoyer" id="envoyer">
+		</form>
+	</section>
+
+	<footer> 
 		<b>Suivez-nous</b>
 		<div class="reseaux">
 			<a 

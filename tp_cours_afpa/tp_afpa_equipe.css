@@ -1,0 +1,25 @@
+.equipe{
+	background: lightgrey;
+	padding: 30px 20px;
+	margin-bottom: 50px;
+	display: flex;
+	flex-direction: column;
+}
+.boss, .employes, .meet{
+	background: white;
+	padding: 20px 0;
+	display: inline-flex;
+}
+.boss{
+	border-top: solid lightgrey 2px;
+	border-bottom: solid lightgrey 2px;
+}
+.boss img{width: 200px;}
+.equipe img{border-radius: 100px;}
+.nom{font-size: 30px;}
+.poste{font-style: italic;}
+.employe_1{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
