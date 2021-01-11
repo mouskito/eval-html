@@ -1,7 +1,7 @@
 body{
 	background: black;
 	display: block;
-	margin: 8px;
+	margin: 8px; 
 
 
 }/*Je veux adapter la taille de mon image*/
@@ -16,6 +16,7 @@ header{/*Je veux coller mon bloc du menu*/
 	margin: -8px;
 	background-image: url(fondpoint.jpg);
 	font-family: sans-serif;
+	
 }
 
 .conteneur1{
