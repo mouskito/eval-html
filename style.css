@@ -1,0 +1,55 @@
+header{
+	display: flex;
+	justify-content: center;
+	background-color: #E5DFD8;
+}
+
+.compte{
+	display: flex;
+	justify-content: space-around;
+	border:1px solid;
+	width: 25%;
+	height: 35px;
+	padding: 5px;
+	position: relative;
+	left: 250px;
+}
+
+.compte img{
+	width: 30px;
+	height: 30px;
+	padding: 5px;
+}
+
+.moncompte, .panier{
+	display: flex;
+}
+
+#julien{
+	position: absolute;
+	top: 50px;
+	right: 0;
+}
+
+nav{
+	position: relative;
+	top: 100px;
+	right: 100px;
+}
+
+nav a{
+	text-decoration: none;
+	color: black;
+
+	border-left: 2px solid;
+	padding: 8px;
+}
+
+.deconnection{
+	border-right: 2px solid;
+}
+
+#logo {
+	border-left: 4px solid gold;
+	padding: 10px 15px;
+}
