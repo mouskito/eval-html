@@ -149,6 +149,17 @@ header{
 	background: white;
 	height: 219px;
 }
+.barre_noire{
+	width: all;
+	background: red;
+	height: 10px;
+	margin-top: -10px;
+}
+.barre_vide{
+	width: all;
+	height: 10px;
+
+}
 /*----------------------------------------------------------*/
 .informations, .bulles, .texte, .reseaux, .droits{
 	display: flex;
