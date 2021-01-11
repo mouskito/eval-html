@@ -71,7 +71,7 @@ nav a{
 	height: 200px;
 }
 
-.bloc-du-haut{
+.bloc-du-haut, .bloc-du-bas{
 	display: flex;
 	justify-content: space-around;
 }
@@ -133,3 +133,76 @@ section{
 	margin-left: 20px;
 }
 /* Fin css pour le contenu de la page */
+
+
+/* Css pour le footer de la page */
+
+footer{
+	background: #525252;
+	text-align: center;
+}
+.articlefooter{
+	display: flex;
+	justify-content: space-around;
+	width: 40%;
+	margin: auto;
+	padding: 15px;
+	color: white;
+}
+
+.socials img{
+	width: 30px;
+	height: 30px;
+	margin: 20px;
+}
+
+.menu a{
+	text-decoration: none;
+	color: black;
+}
+
+.menu span{
+	font-size: 4em;
+	color: grey;
+	margin-top: -35px;
+}
+
+.barre-grise-contenu-et-footer{ 
+	background-color: #525252;
+	height: 15px;
+}
+
+.traitblanc{
+	background-color: white;
+	height: 15px;
+	width: 80%;
+	margin: auto;
+	margin-top: -15px;
+}
+
+.barre-noire-contenu-et-footer{
+	background-color: black;
+	height: 15px;
+}
+
+.menu{
+	background-color: white;
+    width: 30%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    border: 1px solid;
+    align-items: center;
+    padding: 4px;
+}
+
+article p{
+	text-align: left;
+    padding-right: 30px;
+}
+
+hr{
+	width: 30%;
+}
+/* Fin css pour le footer de la page */
