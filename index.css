@@ -27,6 +27,8 @@ nav, .menudroite{
 }
 .logo{
 	padding-top: 40px;
+	border-left: solid 4px gold;
+	padding-left: 5px;
 }
 .droite{
 	padding-top: 20px;
@@ -175,4 +177,8 @@ footer .mentions{
 }
 .folow a img{
 	padding-left: 30px;
+}
+hr{
+	width: 30%;
+	margin: auto;
 }
