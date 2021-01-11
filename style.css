@@ -1,3 +1,7 @@
+body{
+	background-color: black;
+
+}
 header{
 	display: flex;
 	justify-content: center;
@@ -53,3 +57,79 @@ nav a{
 	border-left: 4px solid gold;
 	padding: 10px 15px;
 }
+
+/* Css pour le contenu de la page */
+
+.container{
+	width: 80%;
+	margin: auto;
+	background-color: #E5DFD8;
+}
+
+.header-page-catalogue img{
+	width: 100%;
+	height: 200px;
+}
+
+.bloc-du-haut{
+	display: flex;
+	justify-content: space-around;
+}
+
+.gant{
+	border:2px solid grey;
+	box-shadow: 0px 0px 0px 5px grey;
+}
+
+section{
+	position: relative;
+}
+
+.reduction{
+    position: absolute;
+    top: 0;
+    right: -10px;
+    color: goldenrod;
+    background: black;
+    padding: 8px;
+    font-weight: bold;
+    border-radius: 10%;
+}
+.description{
+	text-align: center;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.prix{
+	display: flex;
+	justify-content: space-around;
+}
+
+.prix a{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    width: 35%;
+    height: 15px;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+
+.prix p{
+	font-size: 25px;
+	border-bottom: 2px solid grey;
+}
+
+.prixavant{
+	text-decoration: line-through;
+}
+
+
+.prixapres{
+	color: goldenrod;
+	margin-left: 20px;
+}
+/* Fin css pour le contenu de la page */
