@@ -1,0 +1,191 @@
+/*DE GRAND VERS PETIT*/
+
+/*Début Barre des menus*/
+.barre_blanche{
+	background: white;
+	display: inline;
+	width: all;
+	height: 120px;
+	
+}
+nav{ 
+	background: white;
+	display: flex;
+	justify-content: space-between;
+	height: 100%;
+	padding-top: 20px;
+	shape-margin: ;
+}
+nav a{
+	text-decoration: none;
+	font-size: 20px;
+	color: black;
+}
+#logo{
+	height: 50%;
+}
+figure{
+	border-left: 2px solid yellow;
+	padding: 0;
+	margin: 0;
+
+}
+figcaption{
+	font-size: 20px;
+	vertical-align: baseline;
+}
+.connexion{
+	display: flex;
+	background: #B3B3B3;
+	border: solid 1px;
+	padding-right: 5px 20px 0 0;
+}
+.connexion div{padding-left: 50px;}
+.menu{
+	text-align: right;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+nav span{
+	font-size: 30px;
+	margin-right: 50px;
+}
+.liens{
+	margin-right: 200px;
+	display: flex;
+	justify-content: space-around;
+	border-right: 1px solid grey;
+	text-align: center;
+}
+.liens a{
+	border-left: 1px solid grey;
+	padding: 0 20px; 
+}
+
+/*fin Barre des menus*/
+/*Début header (image de match)*/
+header{
+	margin-top: 20px;
+	display: flex;
+	justify-content: center;
+}
+header img{
+
+}
+/*Fin header*/
+/*Début body*/
+body{
+	padding: auto;
+	background: #2F2F2F;
+	justify-content: center;
+	text-align: center;
+}
+.conteneur{
+	width: 1052px;
+	display: inline-flex;
+	flex-direction: column;
+}
+.produits{ /*tout l'affichage*/
+	display: inline-block;
+	background: white;
+	background: #DBDBDB;
+}
+.article{ /*affichage de 1 article*/
+	display: inline-flex;
+	flex-direction: column;
+	margin: 50px;
+}
+.article img{}
+.sur_l_image{
+	display: inline-flex;
+	justify-content: space-between;
+	flex-direction: column;
+	background-repeat: no-repeat;
+	height: 400px;
+	width: 400px;
+}
+.produits div:nth-child(1) .sur_l_image, .produits div:nth-child(3) .sur_l_image{background-image: url(img/gant-boxe-2.png);}
+.produits div:nth-child(2) .sur_l_image, .produits div:nth-child(4) .sur_l_image{background-image: url(img/gant-boxe-1.png);}
+.nom_article{
+	font-weight: bold;
+	font-size: 20px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+.reduction{
+	background: black;
+	color: gold;
+	font-size: 30px;
+	width: 90px;
+	padding: 10px;
+	font-weight: bold;
+	margin: 10px 0 0 300px;
+}
+.achat{
+	display: flex;
+	justify-content: space-between;
+	margin-left: 20px;
+}
+.achat a{
+	padding: 5px 30px;
+	background: black;
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	border-radius: 5px;
+}
+.prix{
+	border-bottom: 1px solid grey;
+	font-weight: bold;
+	margin-right: 50px;
+}
+.prix_barre{font-size: 20px;}
+.nouveau_prix{
+	font-size: 30px;
+	color: orange;
+}
+
+/*Fin body*/
+/*Début Footer*/
+footer{
+	width: all;
+	background: #6D6D6D;
+	display: flex;
+	flex-direction: column;
+	vertical-align: bottom;
+}
+footer section{
+	display: inline-flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.informations{
+	background: grey;
+	border: solid 1px;
+	border-radius: 3px;
+	width: auto;
+}
+.informations ul{
+	display: inline-flex;
+	justify-content: space-around;
+}
+.informations ul li{
+	margin-left: 30px;
+}
+.informations a{text-decoration: none;}
+.informations ul li:first-child{list-style: none;}
+.bulles div{
+	display: block;
+	max-width: 200px;
+	justify-content: center;
+}
+.bulles img{margin: 0 45px 0 45px;}
+.reseaux{
+	margin: 10px 10px;
+	border-top: 1px solid white;
+}
+.reseaux a{
+	margin: 10px 50px;
+}
+/*Fin Footer*/

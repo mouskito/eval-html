@@ -1,0 +1,204 @@
+/*DE PETIT VERS GRAND*/
+
+.logo{
+	display: inline-flex;
+	flex-direction: column;
+	padding-left: 20px;
+	font-size: 22px;
+	margin-top: 50px;
+	z-index: 2;
+}
+.logo img{}
+.logo span{margin-top: 20px;}
+.logo data{color: orange;}
+.compte, .panier{
+	display: inline-flex;
+	padding: 10px;
+	
+}
+.degrade_orange{
+	width: 2px;
+	background: linear-gradient(white,orange);
+}
+.connexion a{
+	text-decoration: none;
+	color: black;
+	margin-left: 10px;
+	padding-top: 15px;
+}
+.connexion{
+	display: flex;
+	justify-content: space-around;
+	background: #B3B3B3;
+	width: auto;
+	border: solid 1px;
+	margin-right: 0px;
+}
+.menu span{
+	font-size: 30px;
+	margin-right: 40px;
+}
+.liens{
+	display: flex;
+	text-align: center;
+	height: 90px;
+	font-size: 20px;
+	margin-right: 150px;
+}
+.liens a{
+	text-decoration: none;
+	color: black;
+	padding: 50px 20px 0 20px;
+
+}
+.degrade_noir{
+	width: 1px;
+	background: linear-gradient(white,grey);
+}
+.menu{
+	display: inline-flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: right;
+}
+
+nav{
+	width: 1150px;
+	margin: 0 auto;
+	padding: 20px 0px 0 0px;
+	background: white;
+	display: flex;
+	justify-content: space-around;
+}
+header{
+	display: flex;
+	justify-content: center;
+	margin: 20px auto 0;
+}
+
+.reduction{
+	background: black;
+	color: gold;
+	font-size: 30px;
+	font-weight: bold;
+	width: 90px;
+	padding: 10px;
+	border: inset grey 3px;
+}
+.prix_barre{font-size: 20px;}
+.nouveau_prix{
+	font-size: 30px;
+	color: orange;
+	margin-left: 10px;
+}
+.prix{
+	font-weight: bold;
+}
+.degrade_prix{
+	height: 1px;
+	background: linear-gradient(90deg, white,black);
+
+}
+.achat a{
+	background: black;
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	border-radius: 5px;
+	padding: 5px 30px;
+}
+.achat{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 10px;
+	padding: 0 40px 0 10px;
+}
+
+.sur_l_image{
+	display: inline-flex;
+	position: relative;
+}
+.sur_l_image .nom_article{
+	position: absolute;
+	bottom: 10px;
+	font-size: 20px;
+	font-weight: bold;
+	width: 100%;
+	text-align: center;
+}
+.sur_l_image .reduction{
+	position: absolute;
+	top: 10px;
+	right: 0px;
+}
+
+.article{
+	display: inline-flex;
+	flex-direction: column;
+	width: 400px;
+	margin: 50px;
+}
+.produits{
+	background: #DBDBDB; 
+	max-width: 1052px;
+	display: block;
+	margin: 0 auto;
+}
+.barre_blanche{
+	width: all;
+	background: white;
+	height: 219px;
+}
+.barre_noire{
+	width: all;
+	background: red;
+	height: 10px;
+	margin-top: -10px;
+}
+.barre_vide{
+	width: all;
+	height: 10px;
+
+}
+/*----------------------------------------------------------*/
+.informations, .bulles, .texte, .reseaux, .droits{
+	display: flex;
+	justify-content: center;
+}
+.informations ul{
+	display: inline-flex;
+	justify-content: space-between;
+	background: lightgrey;
+	width: 400px;
+	padding: 20px;
+	border-radius: 10px;
+	color: grey;
+}
+.informations ul li a{
+	text-decoration: none;
+	color: black;
+}
+.informations ul li:first-child{list-style: none;}
+.bulles img{margin: 50px;}
+.reseaux img{margin: 30px;}
+.reseaux{
+	width: 300px;
+	border-top: solid 1px white;
+	margin: auto;
+}
+footer{
+	background: #6D6D6D;
+	color: white;
+}
+.texte data{
+	max-width: 150px;
+	margin: 10px;
+	font-size: 10px;
+}
+
+
+/*----------------------------------------------------------*/
+body{
+	background: #2F2F2F;
+	justify-content: center;
+}

@@ -1,0 +1,32 @@
+body{
+	justify-content: center;
+}
+nav a, footer a{text-decoration: none;}
+nav, footer{
+	display: flex;
+	justify-content: space-around;
+}
+nav{
+	background: aqua;
+	font-size: 30px;
+	font-weight: bold;
+	padding: 10px;
+}
+nav a{
+	color: red;
+	padding: 10px;
+}
+nav a:hover {background: yellow;}
+footer{
+	background: lime;
+	flex-direction: column;
+	padding: 10px 0 10px; 
+}
+footer b{margin: auto;}
+footer .reseaux{
+	margin: auto;
+	padding-top: 10px;
+	display: flex;
+	justify-content: space-between;
+	width: 250px;
+}

@@ -1,0 +1,53 @@
+/*.equipe{
+	background: lightgrey;
+	padding: 30px 20px;
+	margin-bottom: 50px;
+	display: flex;
+	flex-direction: column;
+	width: 800px;
+}*/
+.meet{
+	padding: 20px 10px;
+	display: flex;
+	flex-direction: column;
+}
+.equipe img{
+	border-radius: 100px;
+	width: 100px;
+	margin: auto;
+}
+.nom{font-size: 25px;}
+.poste{font-style: italic;}
+.employe_1{
+	display: inline-flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	width: 200px;
+	margin: 20px 0;
+}
+.employe_1 span{margin: 5px 0;}
+.boss{
+	border-top: solid lightgrey 2px;
+	border-bottom: solid lightgrey 2px;
+}
+.boss img{width: 200px;}
+#kim, #regan{width: 400px;}
+.employes, .meet, .boss{
+	max-width: 900px;
+	margin: auto;
+	justify-content: space-around;
+	text-align: center;
+}
+.equipe{
+	background: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+#contour_equipe{
+	margin: 50px auto;
+	background: lightgrey;
+	padding: 30px 50px;
+	width: 1000px;
+}
