@@ -1,6 +1,6 @@
 body{
 	background: black;
-	display: block;
+	display: block;/* body est deja en display block par default */
 	margin: 8px; 
 
 
@@ -93,6 +93,9 @@ header{/*Je veux coller mon bloc du menu*/
 	display: inline;
 }
 /*J veux réduire la taille de mes logo*/
+/*
+* width: taille.px;
+*/
 .span  {
 	margin-left: 50%;
 	margin-right: 16%;
@@ -165,10 +168,17 @@ section{
 	display:inline-flex;
 	color: white;
 	padding-top: 3%;
+
+	/*Moussa
+	* width: 70%;
+    * margin: auto;
+	*/
 }
 /*Je veux déscendre mes bloque fb..*/
 .lienssocial {
-
+/*Moussa
+* margin-top:10%;
+*/
 	justify-content: space-between;
 	bottom: 0px;
 	padding:3px;
@@ -181,4 +191,11 @@ h5 {
 	bottom: 0px;
 	color: white;
 	margin-bottom:2%;/*mon titre ne descend pas*/
+
+	/*Moussa - margin-bottom rajoute de l'espace vers le bas.
+	* Ton texte reste sur la mm ligne 
+	* en faisant un margin-top tu rajoute de l'espace en haut donc par conséquent
+	* tu décalle le texte vers le bas
+	*/
+	margin-top:2%;/*mon titre ne descend pas*/
 }
