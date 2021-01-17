@@ -239,9 +239,11 @@ aside{
 
 
 }
+/* Moussa - commentaire naturel C, A, G ???? */
 .C ,.A ,.G ,.bullet1, .bullet2, .bullet3{
 	padding-left: 20px;
 }
+/* Moussa - commentaire naturel-  Q, C, A, G ???? */
 .Q,.C,.A,.G{
 	color:grey;
 }
