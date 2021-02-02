@@ -18,7 +18,7 @@ function choisir_quelquun_stress(){
 	var points_grossissants = document.querySelectorAll(".spinner-grow");
 	for(var index = 0; index <= 5; index++){
 		setTimeout(function(){
-		chargement_factice.innerHTML += '<div class="spinner-grow text-danger" style="width: 3rem; height: 3rem;" role="status"></div>';
+		chargement_factice.innerHTML += '<div class="spinner-grow text-danger" style="width: 3rem; height: 3rem; animation-delay: 200ms;" role="status"></div>';
 		}, 1000*index);
 	}
 	setTimeout(function(){
