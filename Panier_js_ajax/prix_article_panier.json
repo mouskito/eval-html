@@ -1,0 +1,223 @@
+{
+	"produits": [
+		{
+			"article": "aaa",
+			"prix" : 15
+		},
+		{
+			"article" : "aaaaa",
+			"prix" : 1
+		},
+		{
+			"article" : "bbbbb",
+			"prix" : 2 
+		},
+		{
+			"article" : "ccccc",
+			"prix" : 3 
+		},
+		{
+			"article" : "ddddd",
+			"prix" : 4
+		},
+		{
+			"article" : "eeeee",
+			"prix" : 5 
+		},
+		{
+			"article" : "fffff",
+			"prix" : 6 
+		},
+		{
+			"article" : "ggggg",
+			"prix" : 7 
+		},
+		{
+			"article" : "hhhhh",
+			"prix" : 8
+		},
+		{
+			"article" : "iiiii",
+			"prix" : 9
+		},
+		{
+			"article" : "jjjjj",
+			"prix" : 10
+		},
+		{
+			"article" : "kkkkk",
+			"prix" : 11
+		},
+		{
+			"article" : "lllll",
+			"prix" : 12
+		},
+		{
+			"article" : "mmmmm",
+			"prix" : 13
+		},
+		{
+			"article" : "nnnnn",
+			"prix" : 14
+		},
+		{
+			"article" : "ooooo",
+			"prix" : 15
+		},
+		{
+			"article" : "ppppp",
+			"prix" : 16
+		},
+		{
+			"article" : "qqqqq",
+			"prix" : 17
+		},
+		{
+			"article" : "rrrrr",
+			"prix" : 18
+		},
+		{
+			"article" : "sssss",
+			"prix" : 19
+		},
+		{
+			"article" : "ttttt",
+			"prix" : 20
+		},
+		{
+			"article" : "uuuuu",
+			"prix" : 8 
+		},
+		{
+			"article" : "vvvvv",
+			"prix" : 7
+		},
+		{
+			"article" : "wwwww",
+			"prix" : 6
+		},
+		{
+			"article" : "xxxxx",
+			"prix" : 5
+		},
+		{
+			"article" : "yyyyy",
+			"prix" : 4 
+		},
+		{
+			"article" : "zzzzz",
+			"prix" : 3 
+		}
+	],
+	"panier": [
+		{
+			"article": "aaa",
+			"quantite" : 15
+		},
+		{
+			"article" : "aaaaa",
+			"quantite" : 1
+		},
+		{
+			"article" : "bbbbb",
+			"quantite" : 2 
+		},
+		{
+			"article" : "ccccc",
+			"quantite" : 3 
+		},
+		{
+			"article" : "ddddd",
+			"quantite" : 4
+		},
+		{
+			"article" : "eeeee",
+			"quantite" : 5 
+		},
+		{
+			"article" : "fffff",
+			"quantite" : 6 
+		},
+		{
+			"article" : "ggggg",
+			"quantite" : 7 
+		},
+		{
+			"article" : "hhhhh",
+			"quantite" : 8
+		},
+		{
+			"article" : "iiiii",
+			"quantite" : 9
+		},
+		{
+			"article" : "jjjjj",
+			"quantite" : 10
+		},
+		{
+			"article" : "kkkkk",
+			"quantite" : 11
+		},
+		{
+			"article" : "lllll",
+			"quantite" : 12
+		},
+		{
+			"article" : "mmmmm",
+			"quantite" : 13
+		},
+		{
+			"article" : "nnnnn",
+			"quantite" : 14
+		},
+		{
+			"article" : "ooooo",
+			"quantite" : 15
+		},
+		{
+			"article" : "ppppp",
+			"quantite" : 16
+		},
+		{
+			"article" : "qqqqq",
+			"quantite" : 17
+		},
+		{
+			"article" : "rrrrr",
+			"quantite" : 18
+		},
+		{
+			"article" : "sssss",
+			"quantite" : 19
+		},
+		{
+			"article" : "ttttt",
+			"quantite" : 20
+		},
+		{
+			"article" : "uuuuu",
+			"quantite" : 8 
+		},
+		{
+			"article" : "vvvvv",
+			"quantite" : 7
+		},
+		{
+			"article" : "wwwww",
+			"quantite" : 6
+		},
+		{
+			"article" : "xxxxx",
+			"quantite" : 5
+		},
+		{
+			"article" : "yyyyy",
+			"quantite" : 4 
+		},
+		{
+			"article" : "zzzzz",
+			"quantite" : 3 
+		}
+	]
+
+}

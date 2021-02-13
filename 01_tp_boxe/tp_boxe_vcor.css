@@ -8,7 +8,7 @@
 	margin-top: 50px;
 	z-index: 2;
 }
-.logo img{} /* ??? */
+.logo img{}
 .logo span{margin-top: 20px;}
 .logo data{color: orange;}
 .compte, .panier{

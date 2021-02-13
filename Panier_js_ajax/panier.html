@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Panier</title>
+	<link rel="icon" type="img/png" href="../Ressources_test/Images/triforce.png">
+	<link rel="stylesheet" type="text/css" href="../Ressources_test/Document/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="panier.css">
+	<script type="text/javascript" src="../Ressources_test/jquery/jquery-3.5.1.min.js"></script>
+	<script type="text/javascript" src="panier.js"></script>
+	<meta charset="utf-8">
+</head>
+<body>
+	<center><a href="../sommaire_js.html">Acceuil JS</a>_________________
+	<a href="../js_0_resume/exo_tp_js.html">Exos JS</a></center><hr><hr>
+	<div class="container">
+		<button id="ajout_article" class="btn btn-success">Ajouter un Article</button>
+		<table id="tableau_panier" class="table table-stripped table-dark">
+			<thead>
+				<th>Article</th>
+				<th>Prix Unitaire</th>
+				<th>Quantité</th>
+				<th>Prix Total</th>
+			</thead>
+			<tbody id="tableau_articles">
+				
+			</tbody>
+		</table>
+		<div id="total_panier" class="text-danger fs-3">Prix Total du panier : <data></data>€</div>
+	</div>
+</body>
+</html>
